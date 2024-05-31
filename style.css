@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    background-color: #d4d4d4;
+    padding: 2rem 8rem 2rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo-container{
+    width: fit-content;
+    height: auto;
+}
+
+.brand-logo-container h3{
+    color: #1e1e1e;
+}
+
+.navigation-menu-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.portfolio-container{
+    width: fit-content;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.services-container{
+    width: fit-content;
+    height: auto;
+}
+
+.about-container{
+    width: fit-content;
+    height: auto;
+}
+
+.header-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.header-button-container button{
+    background-color: #1e1e1e;
+    color: white;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #8b8b8b;
+    padding: 10rem 8rem 22rem 8rem;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.hero-title-and-description-container{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.hero-title-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title-container h1{
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+.hero-description-text-container{
+    width: 100%;
+    height: auto;
+}
+
+.hero-description-text-container p{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+    text-align: center;
+}
+
+.hero-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-button-container button{
+    background-color: #1e1e1e;
+    color: #f8f8f8;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
